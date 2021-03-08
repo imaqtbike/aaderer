@@ -23,7 +23,7 @@
 
   .navigation__list {
     top: -5%;
-    left: -26px;
+    left: -19px;
   }
 
   .introduction {
@@ -212,9 +212,14 @@
   .navigation__checkbox:checked ~ .navigation__background {
     transform: scale(72);
   }
-  ..navigation__list {
+  .navigation__list {
     top: 10px;
     left: -13px;
+  }
+  .navigation__link,
+  .navigation__link:link,
+  .navigation__link:visited {
+    font-family: inherit;
   }
 
   .introduction {
